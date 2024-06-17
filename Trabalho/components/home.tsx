@@ -13,7 +13,7 @@ export default function App() {
                   <Text style={styles.titlee}>Bem-Vindo! 
                   Sua ferramenta de localização confiável. Explore o mundo ao seu redor, obtenha sua 
                   localização atual com precisão e descubra novos lugares com facilidade. </Text>
-                  <Image style={styles.imagem} source={require('../assets/images/isalinda.jpg')} />
+                  <Image style={styles.imagem} source={require('../assets/images/biaa.png')} />
                    <TouchableOpacity style={styles.button} onPress={() => setPage('sobre')}>
                     <Text style={styles.buttonText}>Localizar</Text>
                    </TouchableOpacity>
