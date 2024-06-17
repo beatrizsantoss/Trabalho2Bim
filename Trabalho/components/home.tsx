@@ -9,10 +9,13 @@ export default function App() {
         if (page === 'home') {
             return (
                 <View style={styles.container}>
-                 <Text style={styles.title}>Página Principal</Text>
-                  <Text style={styles.title}>Exemplo 1</Text>
+                 <Text style={styles.title}>LocaFind</Text>
+                  <Text style={styles.titlee}>Bem-Vindo! 
+                  Sua ferramenta de localização confiável. Explore o mundo ao seu redor, obtenha sua 
+                  localização atual com precisão e descubra novos lugares com facilidade. </Text>
+                  <Image style={styles.imagem} source={require('../assets/images/isalinda.jpg')} />
                    <TouchableOpacity style={styles.button} onPress={() => setPage('sobre')}>
-                    <Text style={styles.buttonText}>Clique aqui</Text>
+                    <Text style={styles.buttonText}>Localizar</Text>
                    </TouchableOpacity>
                 </View>
                 );
@@ -25,17 +28,24 @@ export default function App() {
                 const styles = StyleSheet.create({
                 container: {
                 flex: 1,
-                justifyContent: 'center',
-                alignItems: 'center',
+                justifyContent: 'justified',
+                alignItems: 'justified',
                 backgroundColor: '#fff',
                 },
                 title: {
+            
                 fontSize: 24,
                 fontWeight: 'bold',
                 color: '#000',
                 marginBottom: 20,
                 },
+                titlee: {
+                    fontSize: 20,
+                    color: '#000',
+                    marginBottom: 20,
+                    },
                 button: {
+                alignItems: 'center',
                 backgroundColor: '#007BFF',
                 padding: 10,
                 borderRadius: 5,

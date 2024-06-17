@@ -6,7 +6,7 @@ export default function App() {
     const [page, setPage] = React.useState('sobre');
 
     const renderPage = () => {
-        if (page === 'home') {
+        if (page === 'sobre') {
             return (
                 <View style={styles.container}>
                  <Text style={styles.title}>Página Sobre</Text>
@@ -15,7 +15,7 @@ export default function App() {
                    </TouchableOpacity>
                 </View>
                 );
-        } else if (page === 'sobre') {
+        } else if (page === 'home') {
     return <Home/>;
     }
   };
