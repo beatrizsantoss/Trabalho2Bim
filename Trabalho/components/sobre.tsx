@@ -12,7 +12,7 @@ export default function App() {
                 <View style={styles.container}>
                  <Text style={styles.title}>LocaFind</Text>
                  <Text style={styles.titlee}>Latitude: 00.00</Text>
-                 <Text style={styles.titlee}>Longitude: 00.00</Text>
+                 <Text style={styles.titlee}>Longitude: 00.00</Text>ggg
                    <TouchableOpacity style={styles.button} onPress={() => setPage('home')}>
                    <Image style={styles.imagem} source={require('../assets/images/biaa.png')} />
                     <Text style={styles.buttonText}>Início</Text>
