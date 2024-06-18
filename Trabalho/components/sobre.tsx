@@ -11,8 +11,8 @@ export default function App() {
             return (
                 <View style={styles.container}>
                  <Text style={styles.title}>LocaFind</Text>
-                 <Text style={styles.titlee}>Latitude:00.00</Text>
-                 <Text style={styles.titlee}>Longitude:00.00</Text>
+                 <Text style={styles.titlee}>Latitude: 00.00</Text>
+                 <Text style={styles.titlee}>Longitude: 00.00</Text>
                    <TouchableOpacity style={styles.button} onPress={() => setPage('home')}>
                     <Text style={styles.buttonText}>Clique aqui</Text>
                    </TouchableOpacity>
