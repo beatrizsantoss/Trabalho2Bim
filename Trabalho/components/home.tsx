@@ -1,5 +1,6 @@
 import React from 'react';
-import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
+import { Text, View, StyleSheet, TouchableOpacity, Image } from 'react-native';
+
 import Sobre from './sobre';
 
 export default function App() { 
@@ -27,9 +28,10 @@ export default function App() {
         } 
                 const styles = StyleSheet.create({
                 container: {
+            
                 flex: 1,
-                justifyContent: 'justified',
-                alignItems: 'justified',
+                justifyContent: 'center',
+                alignItems: 'center',
                 backgroundColor: '#fff',
                 },
                 title: {

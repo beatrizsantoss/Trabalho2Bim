@@ -1,5 +1,6 @@
 import React from 'react';
-import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
+import { Text, View, StyleSheet, TouchableOpacity, Image } from 'react-native';
+
 import Home from './home';
 
 export default function App() { 
@@ -9,7 +10,9 @@ export default function App() {
         if (page === 'sobre') {
             return (
                 <View style={styles.container}>
-                 <Text style={styles.title}>Página Sobre</Text>
+                 <Text style={styles.title}>LocaFind</Text>
+                 <Text style={styles.titlee}>Latitude:00.00</Text>
+                 <Text style={styles.titlee}>Longitude:00.00</Text>
                    <TouchableOpacity style={styles.button} onPress={() => setPage('home')}>
                     <Text style={styles.buttonText}>Clique aqui</Text>
                    </TouchableOpacity>
@@ -35,6 +38,13 @@ export default function App() {
         color: '#000',
         marginBottom: 20,
         },
+        titlee: {
+          fontSize: 20,
+          color: '#000',
+          justifyContent: 'center',
+          alignItems: 'center',
+          marginBottom: 20,
+          },
         button: {
         backgroundColor: '#007BFF',
         padding: 10,
