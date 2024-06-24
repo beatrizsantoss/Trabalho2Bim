@@ -16,7 +16,7 @@ export default function App() {
                   localização atual com precisão e descubra novos lugares com facilidade. </Text>
                   <Image style={styles.imagem} source={require('../assets/images/biaa.png')} />
                    <TouchableOpacity style={styles.button} onPress={() => setPage('sobre')}>
-                    <Text style={styles.buttonText}>Localizar</Text>
+                    <Text style={styles.buttonText}>  <Image style={styles.imagemm} source={require('../assets/images/beatriz.png')} />Localizar</Text>
                    </TouchableOpacity>
                 </View>
                 );
@@ -48,13 +48,17 @@ export default function App() {
                     },
                 button: {
                 alignItems: 'center',
-                backgroundColor: '#007BFF',
+                backgroundColor: '#808080',
                 padding: 10,
                 borderRadius: 5,
                 },
                 buttonText: {
                 color: '#FFFFFF',
                 fontSize: 16,
+                },
+                imagemm: {
+                    height: 20,
+                    width: 20,
                 },
             });
   
