@@ -32,7 +32,7 @@ export default function App() {
                 flex: 1,
                 justifyContent: 'center',
                 alignItems: 'center',
-                backgroundColor: '#fff',
+                backgroundColor: '#20C8EC',
                 },
                 title: {
             
